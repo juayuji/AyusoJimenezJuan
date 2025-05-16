@@ -13,7 +13,7 @@
 *@return int $valorTotalCompra Precio total que debemos pagar, incluidos los impuestos
 */
 function compraPiso ($valorPiso){
-    $valorTotalCompra = $valorPiso * 1.1;
+    $valorTotalCompra = $valorPiso * 1.2;
     return $valorTotalCompra;
 }
 
